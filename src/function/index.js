@@ -1,7 +1,7 @@
 import Swal from "sweetalert2";
 import axios from "axios";
 
-export const API_BASE_URL = "http://54.179.40.181:6543";
+export const API_BASE_URL = "http://localhost:5002";
 
 export const getHeaders = () => {
   const token = localStorage.getItem("token");
